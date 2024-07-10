@@ -1,0 +1,67 @@
+h1 span {
+    font-size: 3.5em;
+    color: black; 
+}
+h1 { 
+	text-align:left; 
+	margin-bottom: 20px;
+    color: #black; 
+
+}
+.nav-requirements ul {
+    list-style-type:none; /* Removes the default list style */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e3b5b5; /* Dark background color */
+}
+
+.nav-requirements li {
+    float:right; /* This makes the list items sit side by side */
+}
+
+.nav-requirements li a {
+    display: block; /* Allows padding to be added */
+    color: #685a0798; /* Text color */
+    text-align: center; /* Centers the text within the link */
+    padding: 18px 18px; /* Adds padding around the text */
+    text-decoration:double;
+    font-size: larger; 
+    font-weight: bolder;/* Removes the default underline from links */
+}
+
+/* Changes the link color on hover */
+.nav-requirements li a:hover {
+    background-color: hsl(0, 26%, 96%); /* Darker shade on hover */
+}
+
+.requirements a{
+    float:left;
+    margin-bottom: 20px;
+    color: #685a0798;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #e3b5b5;
+    padding:18px 18px;
+    display:block;
+}
+
+.requirements a:hover {
+    background-color: hsl(0, 26%, 96%); 
+}
+
+.content-area {
+    width: 80%; 
+    height: 500px; 
+    border: none; 
+}
+
+footer {
+    background-color: #e3b5b5;
+    color: #685a0798;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
